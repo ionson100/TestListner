@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "TesyHttpServer": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "httpPort": 1234,
+      "commandName": "Docker"
+    }
+  }
+}

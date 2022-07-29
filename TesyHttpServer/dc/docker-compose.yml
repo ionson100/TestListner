@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+
+  ion1001:
+    image: "ionson100/tesyhttpserver:v2"
+    container_name: ion1001
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports: 
+    - "9991:80"
+
+  ion1002:
+    image: "ionson100/tesyhttpserver:v2"
+    container_name: ion1002
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports: 
+    - "9992:80"
+ 
+   
+    
+    
